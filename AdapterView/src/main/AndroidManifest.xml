@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.huixing.day4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".pingjiaActivity" />
+        <activity android:name=".AutoActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ArrayAdapterActivity" />
+        <activity android:name=".SimpleAdapterActivity" />
+        <activity android:name=".BaseAdapter" />
+        <activity android:name=".BaseAdapterActivity" />
+        <activity android:name=".ExpandListviewActivity" />
+        <activity android:name=".GallryActivity" />
+        <activity
+            android:name=".baseAdapterActivity2"
+            android:label="@string/title_activity_base_adapter2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BaseAdapterActivity3" />
+        <activity android:name=".Gridactivity" />
+        <activity android:name=".SpinerActivity" />
+        <activity
+            android:name=".ItemListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.huixing.day4.ItemListActivity" />
+        </activity>
+        <activity android:name=".ViewSwitcherActivity" />
+        <activity android:name=".AdapterViewFliperActivity"></activity>
+    </application>
+
+</manifest>

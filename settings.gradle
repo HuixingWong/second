@@ -1,0 +1,1 @@
+include ':app', ':AdapterView', ':day5', ':a绘图', ':viewpage', ':ll自定义组合控件', ':ll对话框', ':ll对话框2', ':dialog及其子类', ':viewpage2', ':ll指示器', ':notifications', ':notifications2', ':popwindow', ':928Activity', ':fragmenttest', ':928activity启动方式和数据传递', ':startactivityforresult', ':brodcastrecevier', ':ll管理fragment（1）', ':ll管理fragment(2)', ':ll系统intent', ':service1', ':viewpage&&fragment'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="book">
+
+        <item>挪威的森林</item>
+        <item>冷酷仙境与世界尽头</item>
+        <item>你的朋友</item>
+        <item>解忧杂货铺</item>
+        <item>岛上书店</item>
+
+    </string-array>
+
+</resources>

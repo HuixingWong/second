@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="names">
+
+        <item>alertviewdialog</item>
+        <item>有选项的dialog</item>
+        <item>singleChoiceDialog</item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+</resources>
